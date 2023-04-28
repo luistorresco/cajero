@@ -8,8 +8,7 @@
 }
 
 .nav img { 
-    height: 100px;
-    
+    height: 100px; 
 }
 
 .nav img#imagen1 {
@@ -29,7 +28,7 @@ button {
   }
   
   button:hover {
-    background-color: #007bff;
+    background-color: hsl(211, 100%, 50%);
   }
 
   p {
@@ -40,7 +39,3 @@ button {
     text-decoration: none;
     color: inherit;
   }
-  
-
-
-

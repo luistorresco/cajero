@@ -1,66 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/styles_p3.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>trasferencias</title>
+  <link rel="stylesheet" href="./css/trasferencias.css">
 </head>
+
 <body>
+  <nav>
+    <section class="padre_nav">
+      <section class="hijo_boton">
+        <a href="./usuarios.html">
+          <button>VOLVER A ATRAS</button>
+        </a>
+      </section>
+      <section class="hijo_nav">
+        <img src="./img/trasferencias.png" alt="imagen">
+        <H1>TRASFERENCIAS</H1>
+      </section>
+    </section>
+  </nav>
+  <main>
     <form>
-        <section class="right-column">
-            <table>
-              <tr>
-                <td><input type="text" name="destinatario-nombre" required placeholder="Nombre de quien recibe"></td>
-              </tr>
-              <tr>
-                <td><input type="number" name="destinatario-cuenta" required placeholder="Número de cuenta"></td>
-              </tr>
-              <tr>
-                <td>
-                  <select name="destinatario-banco" required >
-                    <option value="">Banco</option>
-                    <option value="banco-a">Banco A</option>
-                    <option value="banco-b">Banco B</option>
-                    <option value="banco-c">Banco C</option>
-                  </select>
-                </td>
-              </tr>
-            </table>
-          </section>
-        <section class="left-column">
-          <table>
-            <tr>
-              <td><input type="email" name="remitente-correo" required placeholder="Correo electrónico"></td>
-            </tr>
-            <tr>
-              <td>
-                <select name="remitente-tipo-cuenta" required>
-                  <option value="">Tipo de cuenta</option>
-                  <option value="ahorros">Cuenta de Ahorros</option>
-                  <option value="corriente">Cuenta Corriente</option>
-                </select>
-              </td>
-            </tr>
-            <tr>
-              
-              <td><input type="number" name="monto-transferir" required placeholder="Monto a transferir"></td>
-            </tr>
-          </table>
-        </section>
-      
-
-      
-      </form>
-      <div class="center-button">
-        <button type="submit">Transferir Dinero</button>
-      </div>
-      
-      
-      
-      
-      
-
+      <section class="right-column">
+        <table>
+          <tr>
+            <td><input type="text" name="destinatario-nombre" required placeholder="Nombre de quien recibe"></td>
+          </tr>
+          <tr>
+            <td><input type="number" name="destinatario-cuenta" required placeholder="Número de cuenta"></td>
+          </tr>
+          <tr>
+            <td>
+              <select name="destinatario-banco" required>
+                <option value="">Banco</option>
+                <option value="banco-a">Banco A</option>
+                <option value="banco-b">Banco B</option>
+                <option value="banco-c">Banco C</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class="left-column">
+        <table>
+          <tr>
+            <td><input type="email" name="remitente-correo" required placeholder="Correo electrónico"></td>
+          </tr>
+          <tr>
+            <td>
+              <select name="remitente-tipo-cuenta" required>
+                <option value="">Tipo de cuenta</option>
+                <option value="ahorros">Cuenta de Ahorros</option>
+                <option value="corriente">Cuenta Corriente</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="number" name="monto-transferir" required placeholder="Monto a transferir"></td>
+          </tr>
+        </table>
+      </section>
+    </form>
+    <div class="center-button">
+      <button type="submit">Transferir Dinero</button>
+    </div>
+  </main>
+  <footer></footer>
 </body>
+
 </html>

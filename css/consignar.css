@@ -47,4 +47,32 @@ form {
   button[type="submit"]:hover {
     background-color: #0069d9;
   }
+
+  .hijo_boton {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: auto; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    }
+
+  .padre_nav {
+    display:flex;
+    flex-direction: column;  
+  }
+  .padre_nav img {
+    height: 150px;
+  }
+  
+  .hijo_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
+   
   
