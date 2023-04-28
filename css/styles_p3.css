@@ -1,0 +1,47 @@
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    
+  }
+  
+  td {
+    text-align: right;
+    padding: 5px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  .left-column{
+    align-items: end;
+    justify-content: end;
+  }
+  center-button
+  .center-button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  

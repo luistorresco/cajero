@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiros</title>
+    <link rel="stylesheet" href="./css/styles_p4.css">
+</head>
+<body>
+    <form>
+        <table>
+          <tr>
+            <td>
+              <label for="withdraw-amount">Valor a retirar:</label>
+            </td>
+            <td>
+              <input type="number" id="withdraw-amount" name="withdraw-amount" min="0" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="savings-account">Cuenta de ahorros:</label>
+            </td>
+            <td>
+              <select id="savings-account" name="savings-account">
+                <option value="account-1">Cuenta de ahorros #1</option>
+                <option value="account-2">Cuenta de ahorros #2</option>
+                <option value="account-3">Cuenta de ahorros #3</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button type="submit">Realizar retiro</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+      
+    
+</body>
+</html>
